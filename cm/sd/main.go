@@ -1,4 +1,3 @@
-cmd/sd/
 package 
 mainimport (
 	"net/http"
@@ -34,5 +33,3 @@ mainimport (
 	func loginHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "<h1>Login Page</h1>")
 	}
- 
-  
